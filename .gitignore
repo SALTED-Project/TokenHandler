@@ -1,0 +1,4 @@
+/build/*
+/tokenhandler.egg-info/*
+/tokenhandler/__pycache__/*
+test*.py
