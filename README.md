@@ -23,7 +23,7 @@ import requests
 th = TokenHandler("https://auth.salted-project.eu/realms/SALTED/protocol/openid-connect/token", <your keycloak client ID>, <your keycloak client secret>)
 
 # obtain valid token
-token = th.update_token()
+token = th.get_token()
 
 # test token with scorpio broker
 headers = {
