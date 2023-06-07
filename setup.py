@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='tokenhandler',
-    version=tokenhandler.__version__,    
+    version=tokenhandler.__version__,
     description='Token Handler for the SALTED broker architecture.',
     url='https://github.com/SALTED-Project/TokenHandler',
     author='Maren Dietzel',
